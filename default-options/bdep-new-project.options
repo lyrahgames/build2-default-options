@@ -1,0 +1,8 @@
+--type bare,license=GPL-3.0-or-later
+--type lib,license=GPL-3.0-or-later
+--type exe,license=GPL-3.0-or-later
+--post-hook "/home/lyrahgames/.build2/rm-gitignore.sh @root@"
+--post-hook "cp /home/lyrahgames/.build2/COPYING.md @root@/."
+--post-hook "cp /home/lyrahgames/.build2/AUTHORS.md @root@/."
+--post-hook "cp /home/lyrahgames/.build2/project.gitignore @root@/.gitignore"
+--post-hook "cp /home/lyrahgames/.build2/project.clang-format @root@/.clang-format"

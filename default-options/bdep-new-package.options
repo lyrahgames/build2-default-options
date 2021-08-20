@@ -1,0 +1,8 @@
+--type bare,license=GPL-3.0-or-later
+--type lib,license=GPL-3.0-or-later
+--type exe,license=GPL-3.0-or-later
+--post-hook "/home/lyrahgames/.build2/rm-gitignore.sh @root@/@name@"
+--post-hook "rm README.md"
+--post-hook "ln -s ../README.md README.md"
+--post-hook "ln -s ../COPYING.md COPYING.md"
+--post-hook "ln -s ../AUTHORS.md AUTHORS.md"

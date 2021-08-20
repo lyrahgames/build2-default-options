@@ -1,0 +1,15 @@
+*
+!*/
+
+!*.options
+!*.in
+!*.md
+!*.sh
+!.clang-format
+!*.gitignore
+
+!buildfile
+!bootstrap.build
+!root.build
+
+!.git*
