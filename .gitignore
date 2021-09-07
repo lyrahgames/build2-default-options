@@ -5,7 +5,7 @@
 !*.in
 !*.md
 !*.sh
-!.clang-format
+!*.clang-format
 !*.gitignore
 
 !buildfile
